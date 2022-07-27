@@ -5,8 +5,12 @@ class Home extends Component {
     render() {
         return (
             <Grid>
-                <Header as="h1">Home</Header>
+                <Grid.Column>
+                    <Header as="h1">Home</Header>
+                </Grid.Column>
             </Grid>
         );
     }
 }
+
+export default Home;
