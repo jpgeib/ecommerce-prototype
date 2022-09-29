@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import Home from "../../pages/Home";
+import Contact from "../../pages/Contact";
+import Collection from "../../pages/Collection";
 
 import './style.css';
 
@@ -9,8 +11,8 @@ class App extends Component {
     return (
       <>
         <Route exact path="/" render={() => <Home />} />
-        <Route exact path="/contact" />
-        <Route exact path="/collection" />
+        <Route exact path="/contact" render={() => <Contact />} />
+        <Route exact path="/collection" render={() => <Collection />} />
         <Route exact path="/product" />
         <Route exact path="/cart" />
         <Route exact path="/checkout" />
