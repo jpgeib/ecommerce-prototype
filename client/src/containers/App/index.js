@@ -9,6 +9,13 @@ class App extends Component {
     return (
       <>
         <Route exact path="/" render={() => <Home />} />
+        <Route exact path="/contact" />
+        <Route exact path="/collection" />
+        <Route exact path="/product" />
+        <Route exact path="/cart" />
+        <Route exact path="/checkout" />
+        <Route exact path="/customer/:customer" />
+        <Route exact path="/gift-card" />
       </>
     );
   }
