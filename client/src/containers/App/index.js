@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
+import Navbar from "../Navbar";
 import Home from "../../pages/Home";
 import Contact from "../../pages/Contact";
 import Collection from "../../pages/Collection";
@@ -10,6 +11,7 @@ class App extends Component {
   render() {
     return (
       <>
+        <Navbar />
         <Route exact path="/" render={() => <Home />} />
         <Route exact path="/contact" render={() => <Contact />} />
         <Route exact path="/collection" render={() => <Collection />} />
