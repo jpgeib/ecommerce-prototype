@@ -18,6 +18,8 @@ class Navbar extends Component {
             <Menu>
                 <Menu.Item
                     name="home"
+                    as={Link}
+                    to="/"
                     active={activeItem === "home"}
                     onClick={this.handleItemClick}
                 >
@@ -25,6 +27,8 @@ class Navbar extends Component {
                 </Menu.Item>
                 <Menu.Item
                     name="contact"
+                    as={Link}
+                    to="/contact"
                     active={activeItem === "contact"}
                     onClick={this.handleItemClick}
                 >
@@ -32,6 +36,8 @@ class Navbar extends Component {
                 </Menu.Item>
                 <Menu.Item
                     name="collection"
+                    as={Link}
+                    to="/collection"
                     active={activeItem === "collection"}
                     onClick={this.handleItemClick}
                 >
@@ -39,6 +45,8 @@ class Navbar extends Component {
                 </Menu.Item>
                 <Menu.Item
                     name="product"
+                    as={Link}
+                    to="/product"
                     active={activeItem === "product"}
                     onClick={this.handleItemClick}
                 >
@@ -46,6 +54,8 @@ class Navbar extends Component {
                 </Menu.Item>
                 <Menu.Item
                     name="cart"
+                    as={Link}
+                    to="/cart"
                     active={activeItem === "cart"}
                     onClick={this.handleItemClick}
                 >
@@ -53,6 +63,8 @@ class Navbar extends Component {
                 </Menu.Item>
                 <Menu.Item
                     name="checkout"
+                    as={Link}
+                    to="/checkout"
                     active={activeItem === "checkout"}
                     onClick={this.handleItemClick}
                 >
@@ -60,6 +72,8 @@ class Navbar extends Component {
                 </Menu.Item>
                 <Menu.Item
                     name="customer"
+                    as={Link}
+                    to="/customer"
                     active={activeItem === "customer"}
                     onClick={this.handleItemClick}
                 >
@@ -67,6 +81,8 @@ class Navbar extends Component {
                 </Menu.Item>
                 <Menu.Item
                     name="gift-card"
+                    as={Link}
+                    to="/gift-card"
                     active={activeItem === "gift-card"}
                     onClick={this.handleItemClick}
                 >
