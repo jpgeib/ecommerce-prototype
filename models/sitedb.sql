@@ -45,7 +45,7 @@ CREATE TABLE product (
     product_price DECIMAL(5, 2) NOT NULL,
     size VARCHAR(4) NOT NULL,
     color VARCHAR(32) NOT NULL,
-    available_inventory INT NO NULL,
+    available_inventory INT NOT NULL,
     committed_inventory INT NOT NULL,
     collection VARCHAR(32) NOT NULL,
     in_stock BOOLEAN NOT NULL,
