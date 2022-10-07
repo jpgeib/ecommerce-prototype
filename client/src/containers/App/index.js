@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 import Navbar from "../Navbar";
 import Home from "../../pages/Home";
 import Contact from "../../pages/Contact";
-import Collection from "../../pages/Collection";
+import Collections from "../../pages/Collections";
 import Product from "../../pages/Product";
 import Cart from "../../pages/Cart";
 import Checkout from "../../pages/Checkout";
@@ -19,7 +19,7 @@ class App extends Component {
         <Navbar />
         <Route exact path="/" render={() => <Home />} />
         <Route exact path="/contact" render={() => <Contact />} />
-        <Route exact path="/collection" render={() => <Collection />} />
+        <Route exact path="/collections" render={() => <Collections />} />
         <Route exact path="/product" render={() => <Product />} />
         <Route exact path="/cart" render={() => <Cart />} />
         <Route exact path="/checkout" render={() => <Checkout />} />
